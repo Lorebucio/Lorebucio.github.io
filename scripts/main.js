@@ -1,3 +1,3 @@
-$(".main_title").click(function () {
+$(".main_title").click(function (){
 	alert("h1 clicked");
 });
