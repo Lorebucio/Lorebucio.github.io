@@ -2,14 +2,23 @@
 ------ vars (solamente scss)
 ***/
 
-$red_title : red;
+$color_titles : red;
+$body-size : 16px;
+$text-center: center;
+$text-right: right;
+$text-left: left;
+
 
 /****
 ------ Estilos de texto;
 ****/
+body {
+	font-size: $body-size;
+}
 
 h1 {
-	color:$red_title;
+	color:$color_titles;
+	text-align: $text-center;
 }
 
 /****

@@ -4,8 +4,12 @@
 /****
 ------ Estilos de texto;
 ****/
+body {
+  font-size: 16px; }
+
 h1 {
-  color: red; }
+  color: red;
+  text-align: center; }
 
 /****
 ----- Grid 
