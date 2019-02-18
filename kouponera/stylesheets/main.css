@@ -5,7 +5,10 @@
 ------ Estilos de texto;
 ****/
 body {
-  font-size: 16px; }
+  font-size: 16px; 
+  background-image: "https://lorebucio.github.io/kouponera/assets/main_bg.png";
+
+}
 
 h1 {
   color: red;
