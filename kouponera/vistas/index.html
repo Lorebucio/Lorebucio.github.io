@@ -23,8 +23,8 @@ $(".main_title").click(function (){
  var encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase");
  var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
 
- console.log("encrypted");
- console.log("decrypted");
+ console.log(encrypted);
+ console.log(decrypted);
 });
 </script>
 </body>
